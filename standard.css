@@ -1,7 +1,9 @@
-* {padding: 0; margin: 0; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+* {padding: 0; margin: 0; font-family: 'Roboto', sans-serif;}
 body {
   background-color: rgb(250, 250, 250);
   color: rgb(72, 72, 72);
+  font-weight: 100;
 }
 
 h1 {
@@ -95,9 +97,9 @@ button:hover {
   padding: 40px 50px 30px 50px;
 }
 
-.banner h1{ padding: 0; margin: 0; border: none;font-size: 78px;}
-.banner h2{ padding: 0; margin: 0; border: none;font-size: 36px;}
-.banner p{ padding: 15px; margin: 0; border: none;font-size: 24px;}
+.banner h1{ padding: 0; margin: 0; border: none;font-size: 78px; font-weight: bold;}
+.banner h2{ padding: 0; margin: 0; border: none;font-size: 36px; font-weight: bold;}
+.banner p{ padding: 15px; margin: 0; border: none;font-size: 24px; font-weight: 300;}
 
 .bg-green{background-color: rgb(22, 150, 22);}
 .green{color: rgb(22, 150, 22);}
