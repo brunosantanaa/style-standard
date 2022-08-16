@@ -44,7 +44,12 @@ input[type="text"]{
   padding: 5px 5px 5px 10px;
   min-width: 100px;
 }
-
+input[type="password"]{
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 3px;
+  padding: 5px 5px 5px 10px;
+  min-width: 100px;
+}
 input[type="button"]{
   cursor: pointer;
   border: none;
